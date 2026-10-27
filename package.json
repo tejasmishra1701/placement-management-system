@@ -1,0 +1,17 @@
+{
+  "name": "pms-placement-management-system",
+  "version": "1.0.0",
+  "description": "Placement Management System (PMS) - CS314 Software Development Laboratory, Team T061, LNMIIT Jaipur",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch server.js",
+    "reset": "node --disable-warning=ExperimentalWarning scripts/reset-demo.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "license": "MIT"
+}
